@@ -21,3 +21,14 @@ if __name__ == "__main__":
         room.remove(i)
     captainroom = roomSet.difference(set(room)).pop()
     print(captainroom)
+
+# Optional Code
+"""
+from collections import Counter
+
+if __name__ == "__main__":
+    k = int(input())
+    arr = list(map(int,input().split()))
+    print({v:k for k,v in Counter(arr).items()}[1])
+
+"""
